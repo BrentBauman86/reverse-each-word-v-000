@@ -14,4 +14,5 @@ def reverse_each_word(sentence)
               (word.reverse)
       end
 end
-reverse_each_word "test this guy"
+
+puts reverse_each_word "test this guy"

@@ -10,9 +10,10 @@
 
 def reverse_each_word(sentence)
       sentence_words = sentence.split(" ")
-          sentence_words.collect do |word|
-              word.reverse.join(" ")
+      new_words = sentence_words.collect do |word|
+          word.reverse
       end
-end
+      new_words.join(" ")
+    end
 
 puts (reverse_each_word "test this guy").instance_of? Array

@@ -15,4 +15,4 @@ def reverse_each_word(sentence)
       end
 end
 
-puts type (reverse_each_word "test this guy")
+puts (reverse_each_word "test this guy").instance_of?
